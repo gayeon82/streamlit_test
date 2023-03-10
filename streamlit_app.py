@@ -13,7 +13,7 @@ if (st.button("Confirm")) & (input_password == "mezzo"):
     con.write(f"Hello~ {str(input_user_name)}")
 else:
     con = st.container()
-    con.write("비밀번호가 틀렸습니다. 확인 후 다시 입력해주세요.")  
+    con.write("비밀번호가 틀렸습니다.메롱")  
 
 
 # tab1, tab2= st.tabs(['Tab A' , 'Tab B'])
